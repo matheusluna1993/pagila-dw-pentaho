@@ -1,0 +1,19 @@
+﻿# Spoon/PDI
+*.bak
+*~
+*.log
+logs/
+
+# Credenciais e configuração local: nunca versionar
+kettle.properties
+shared.xml
+.env
+
+# Dados e binários
+*.zip
+data/
+
+# Sistema e editor
+Thumbs.db
+.DS_Store
+.vscode/
